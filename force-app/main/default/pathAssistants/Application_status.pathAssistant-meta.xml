@@ -4,8 +4,5 @@
     <entityName>Application__c</entityName>
     <fieldName>Application_Status__c</fieldName>
     <masterLabel>Application status</masterLabel>
-    <pathAssistantSteps>
-        <picklistValueName>Drafted</picklistValueName>
-    </pathAssistantSteps>
     <recordTypeName>__MASTER__</recordTypeName>
 </PathAssistant>

@@ -3,7 +3,7 @@
     <fullName>Requirement_Type__c</fullName>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Requirement Type</label>
-    <required>false</required>
+    <required>true</required>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>

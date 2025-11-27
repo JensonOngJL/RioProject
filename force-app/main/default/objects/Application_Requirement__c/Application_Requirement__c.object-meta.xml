@@ -159,6 +159,27 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Application Requirements</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Verified__c</fields>
+        <fields>Requirement_Type__c</fields>
+        <fields>Application__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Verified__c</fields>
+        <fields>Requirement_Type__c</fields>
+        <fields>Application__c</fields>
+        <profileName>Admission Officer</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Requirement_Type__c</fields>
+        <fields>Application__c</fields>
+        <fields>Verified__c</fields>
+        <profileName>Admission Officer Sr</profileName>
+    </profileSearchLayouts>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
