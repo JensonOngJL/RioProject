@@ -210,8 +210,16 @@
         <connector>
             <targetReference>Get_Prog_Requirement</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Application_Type__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <object>Application__c</object>
-        <recordTriggerType>Create</recordTriggerType>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>

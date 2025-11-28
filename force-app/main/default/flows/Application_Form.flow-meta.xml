@@ -712,7 +712,7 @@
         </connector>
         <fields>
             <name>conf_txt</name>
-            <fieldText>&lt;p&gt;You are registered, continue along!&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;You are registered, continue along! &lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
             <styleProperties>
                 <verticalAlignment>
@@ -1161,7 +1161,7 @@
             <fieldText>Gender</fieldText>
             <fieldType>DropdownBox</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
             <styleProperties>
                 <verticalAlignment>
                     <stringValue>top</stringValue>
@@ -1254,7 +1254,7 @@
             <targetReference>New_Application</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>AppReq</name>
         <dataType>String</dataType>
